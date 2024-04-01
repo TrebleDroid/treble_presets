@@ -479,7 +479,7 @@
         },
         "community": {
             "telegram": "https://t.me/leaos_group"
-        }
+        },
         "preferences": {
             "key_misc_esco_transport_unit_size": "16",
             "key_misc_dynamic_sysbta": true
