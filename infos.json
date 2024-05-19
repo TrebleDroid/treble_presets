@@ -949,5 +949,22 @@
             "key_ims_request_network": "true",
             "key_ims_force_enable_setting": "true"
         }
+    },
+    {
+        "match_property": "vendor_fp",
+        "match_value": "Redmi/lancelot*|Redmi/galahad*",
+        "device_name": "Redmi 9",
+
+        "maintainer": {
+            "name": "WingBack433"
+        },
+        "community": {
+            "telegram": "https://t.me/phhtreble"
+        },
+        "preferences": {
+            "key_misc_backlight_scale": true,
+            "key_misc_bluetooth": "mediatek",
+            "xiaomi_double_tap_to_wake": true
+        }
     }
 ]
