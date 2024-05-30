@@ -122,6 +122,30 @@
     },
     {
         "match_property": "vendor_fp",
+        "match_value": "samsung/a10s.*",
+        "device_name": "Samsung Galaxy A10s",
+
+        "maintainer": {
+            "name": "Starlix",
+            "telegram": "https://t.me/mt6762"
+        },
+        "community": {
+            "telegram": "https://t.me/a107x"
+        },
+        "preferences": {
+            "key_misc_rounded_corners": "16",
+            "key_samsung_double_tap_to_wake": "true",
+            "key_samsung_camera_ids": "true",
+            "key_misc_multi_camera": "true",           
+            "key_misc_headset_devinput": "true",
+            "key_samsung_extra_sensors": "true",
+            "key_samsung_alternate_audio_policy": true,
+            "key_samsung_esco_transport_unit_size": "16",
+            "key_samsung_high_brightness": "true"
+        }
+    },
+    {
+        "match_property": "vendor_fp",
         "match_value": "samsung/a20[^/]*/a20:.*",
         "device_name": "Samsung Galaxy A20",
 
@@ -151,10 +175,10 @@
             "telegram": "https://t.me/phhtreble"
         },
         "preferences": {
-            "key_misc_esco_transport_unit_size": "16",
             "key_samsung_double_tap_to_wake": true,
             "key_samsung_camera_ids": true,
-            "key_samsung_alternate_audio_policy": true
+            "key_samsung_alternate_audio_policy": true,
+            "key_samsung_esco_transport_unit_size": "16"
         }
     },
     {
@@ -211,11 +235,11 @@
             "key_misc_backlight_scale": "true",
             "key_misc_headset_devinput": "true",
             "key_misc_dynamic_sysbta": "true",
-            "key_misc_esco_transport_unit_size": "16",
             "key_samsung_double_tap_to_wake": "true",
             "key_samsung_camera_ids": "true",
             "key_samsung_extra_sensors": "true",
-            "key_samsung_high_brightness": "true"
+            "key_samsung_high_brightness": "true",
+            "key_samsung_esco_transport_unit_size": "16"
         }
     },
     {
@@ -471,57 +495,6 @@
     },
     {
         "match_property": "vendor_fp",
-        "match_value": "hi3660.*",
-        "device_name": "Huawei hi3660 (Honor 9)",
-        "maintainer": {
-            "name": "Iceows",
-            "telegram": "https://t.me/IceowsDev"
-        },
-        "community": {
-            "telegram": "https://t.me/leaos_group"
-        },
-        "preferences": {
-            "key_misc_esco_transport_unit_size": "16",
-            "key_misc_dynamic_sysbta": true,
-            "key_misc_bluetooth": "huawei"
-        }
-    },
-    {
-        "match_property": "vendor_fp",
-        "match_value": "hi6250.*",
-        "device_name": "Huawei hi6250 (P20 Lite)",
-        "maintainer": {
-            "name": "Iceows",
-            "telegram": "https://t.me/IceowsDev"
-        },
-        "community": {
-            "telegram": "https://t.me/leaos_group"
-        },
-        "preferences": {
-            "key_misc_esco_transport_unit_size": "16",
-            "key_misc_dynamic_sysbta": true,
-            "key_misc_bluetooth": "huawei"
-        }
-    },
-    {
-        "match_property": "vendor_fp",
-        "match_value": "kirin710.*",
-        "device_name": "Huawei Kirin 710 (P Smart 2019/2020)",
-        "maintainer": {
-            "name": "Iceows",
-            "telegram": "https://t.me/IceowsDev"
-        },
-        "community": {
-            "telegram": "https://t.me/leaos_group"
-        },
-        "preferences": {
-            "key_misc_esco_transport_unit_size": "16",
-            "key_misc_dynamic_sysbta": true,
-            "key_misc_bluetooth": "huawei"
-        }
-    },
-    {
-        "match_property": "vendor_fp",
         "match_value": "GM/GM9PRO.*",
         "device_name": "GM 9 Pro",
 
@@ -750,8 +723,8 @@
         },
         "preferences": {
             "key_qualcomm_alternate_audiopolicy": true,
-            "key_misc_dynamic_sysbta": true,
-            "key_misc_esco_transport_unit_size": "16"
+            "key_samsung_esco_transport_unit_size": "16",
+            "key_misc_dynamic_sysbta": true
         }
     },
     {
@@ -766,8 +739,8 @@
             "telegram": "https://t.me/S20FeModding"
         },
         "preferences": {
+            "key_samsung_esco_transport_unit_size": "16",
             "key_misc_headset_devinput": true,
-            "key_misc_esco_transport_unit_size": "16",
             "key_samsung_extra_sensors": true,
             "key_samsung_camera_ids": true,
             "key_samsung_double_tap_to_wake": true
@@ -791,9 +764,9 @@
             "key_qualcomm_disable_soundvolume_effect": true,
             "key_qualcomm_disable_stereo_voip": true,
             "xiaomi_double_tap_to_wake": true,
+            "xiaomi_disable_sunlight_mode": true,
             "key_misc_backlight_scale": true,
-            "key_misc_dynamic_sysbta": true,
-            "key_misc_force_display_5g": true
+            "key_misc_dynamic_sysbta": true
         }
     },
     {
@@ -891,8 +864,8 @@
             "key_misc_backlight_scale": "true",
             "key_misc_headset_devinput": "true",
             "key_misc_dynamic_sysbta": "true",
-            "key_misc_esco_transport_unit_size": "16",
             "key_samsung_alternate_audio_policy": "true",
+            "key_samsung_esco_transport_unit_size": "16",
             "key_samsung_high_brightness": "true",
             "key_samsung_double_tap_to_wake": "true",
             "key_samsung_camera_ids": "true",
