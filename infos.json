@@ -964,6 +964,7 @@
         "preferences": {
             "xiaomi_double_tap_to_wake": true,
             "key_misc_disable_audio_effects": true,
+            "key_misc_mediatek_touch_hint_rotate": true,
             "key_misc_disable_sf_hwc_backpressure": true,
             "key_misc_backlight_scale": true,
             "key_misc_bluetooth": "mediatek"
