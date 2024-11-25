@@ -194,8 +194,7 @@
             "key_samsung_high_brightness": "true"
             "key_samsung_audio_stereo": "true"
             "key_samsung_broken_fingerprint": "true"
-            "key_misc_disable_sf_gl_backpressure": "true"
-            "key_misc_disable_sf_hwc_backpressure": "true"
+            "key_misc_disable_sf_gl_backpressure": "true"        
         }
     },
     {
