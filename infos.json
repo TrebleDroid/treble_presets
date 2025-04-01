@@ -969,5 +969,33 @@
             "key_misc_backlight_scale": true,
             "key_misc_bluetooth": "mediatek"
         }
+    },
+    {
+        "match_property": "ro.product.vendor.device",
+        "match_value": "Infinix-X6831",
+        "device_name": "Infinix Hot 30",
+        "maintainer": {
+            "name": "fluentmoheshwar"
+        },
+        "community": {
+            "telegram": "https://t.me/phhtreble"
+        },
+        "preferences": {
+            "transsion_dt2w": true,
+            "transsion_usb_otg": true,
+            "key_doze_handwave_gesture": true,
+            "key_doze_out_of_pocket_gesture": true,
+            "key_misc_alternate_headset_detection": true,
+            "key_misc_disable_audio_effects": true,
+            "key_misc_force_fps_90hz": true,
+            "key_misc_mediatek_touch_hint_rotate": true,
+            "key_misc_mediatek_ged_kpi_support": true,
+            "key_misc_disable_sf_gl_backpressure": true,
+            "key_misc_disable_sf_hwc_backpressure": true,
+            "key_misc_force_camera2api_hal3": true,
+            "key_misc_system_wide_bt_hal": true,
+            "key_misc_allow_binder_thread": true,
+            "key_misc_disable_voice_call_in_route": true
+        }
     }
 ]
