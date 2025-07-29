@@ -1034,7 +1034,7 @@
           "key_misc_headset_devinput": true,
           "key_misc_disable_audio_effects": true,
           "key_misc_mediatek_touch_hint_rotate": true,
-          "key_misc_mediatek_ged_kp": true,
+          "key_misc_mediatek_ged_kpi": true,
           "key_misc_disable_sf_gl_backpressure": true,
           "key_misc_disable_sf_hwc_backpressure": true,
           "key_misc_force_camera2api_hal3": true,
