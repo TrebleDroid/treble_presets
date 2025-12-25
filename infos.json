@@ -1047,5 +1047,23 @@
           "key_ims_force_enable_setting": true,
           "key_ims_install_apn": true
         }
+    },
+    {
+        "match_property": "vendor_fp",
+        "match_value": "samsung/gta4lvexx.*",
+        "device_name": "Samsung Tab A7 (t509)",
+
+        "maintainer": {
+            "name": "OMaR",
+            "telegram": "https://t.me/CatDev3"
+        },
+        "community": {
+            "telegram": "https://t.me/gta4lve"
+        },
+        "preferences": {
+            "key_samsung_alternate_audio_policy": "true",
+            "key_samsung_high_brightness": "true"
+        }
+      
     }
 ]
