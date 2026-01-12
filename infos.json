@@ -1,6 +1,27 @@
 [
     {
         "match_property": "vendor_fp",
+        "match_value": "samsung/a20s*",
+        "device_name": "Samsung Galaxy A20s",
+
+        "maintainer": {
+            "name": "InsertX2k",
+            "telegram": "https://t.me/ziad_mrx"
+        },
+        "community": {
+            "telegram": "https://t.me/SamsungGalaxyA20s"
+        },
+        "preferences": {
+            "key_samsung_camera_ids": true,
+            "key_samsung_flash_strength": 7,
+            "key_misc_restart_ril": true,
+            "key_misc_disable_sae_upgrade":true,
+            "key_misc_dynamic_sysbta":true,
+            "key_misc_multi_camera":true
+        }
+    },
+    {
+        "match_property": "vendor_fp",
         "match_value": "realme/RMX3081.*",
         "device_name": "Realme 8 Pro",
 
