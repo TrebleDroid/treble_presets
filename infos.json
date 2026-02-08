@@ -1065,5 +1065,22 @@
             "key_misc_backlight_scale": "true",
             "key_misc_dynamic_sysbta": "true"
         }
+    },
+    {
+        "match_property": "vendor_fp",
+        "match_value": "Daria/zahedan.*",
+        "device_name": "Daria Bond I",
+        "maintainer": {
+            "name": "itisFarzin",
+            "telegram": "https://t.me/itisFarzin"
+        },
+        "community": {
+            "telegram": "https://t.me/itisFarzinChat"
+        },
+        "preferences": {
+            "key_misc_dynamic_sysbta": false,
+            "key_misc_patch_smsc": false,
+            "key_misc_disable_sf_gl_backpressure": true
+        }
     }
 ]
